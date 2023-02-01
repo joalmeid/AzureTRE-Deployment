@@ -31,7 +31,7 @@ jobs:
       e2eTestsCustomSelector: >-
         ${{ (github.event_name == 'push' && 'extended or extended_aad')
         || 'extended or shared_services or extended_aad' }}
-      environmentName: ${{ github.event.inputs.environment || 'CICD' }}
+      environmentName: ${{ github.event.inputs.environment || 'Demo' }}
     secrets:
       AAD_TENANT_ID: ${{ secrets.AAD_TENANT_ID }}
       ACR_NAME: ${{ secrets.ACR_NAME }}
