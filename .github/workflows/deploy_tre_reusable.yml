@@ -58,9 +58,6 @@ on:  # yamllint disable-line rule:truthy
       MGMT_RESOURCE_GROUP_NAME:
         description: ""
         required: true
-      MS_TEAMS_WEBHOOK_URI:
-        description: ""
-        required: true
       MGMT_STORAGE_ACCOUNT_NAME:
         description: ""
         required: true
